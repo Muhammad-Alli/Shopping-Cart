@@ -12,7 +12,7 @@ This is a simple interactive Python program that simulates a basic shopping cart
   - Handles invalid price formats (e.g. letters or symbols).
 - Clean and user-friendly output.
 
-## 🚀 How to Run
+## How to Run
 
 Make sure you have Python installed on your machine. Then:
 
