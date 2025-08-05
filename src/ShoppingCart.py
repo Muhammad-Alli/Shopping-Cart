@@ -14,7 +14,7 @@ while True:
         break
     else:
         while True:
-            #This checks if value entered is valid numeric value (greater than 0 and only numeric data type)
+            #This checks if value entered is a valid numeric value (greater than 0 and only numeric data type)
             try:   
                 item_price = float(input(f"Enter the price of the {shop_item}: R"))
                 if item_price <= 0:
@@ -34,3 +34,4 @@ print("\nYour receipt:\n")
 for item, price in shopping_basket.items(): #.items is a built in method attached to dictionaries returns a view of each key-value pair in dictionary into item and price seperately
     print(item + ' : R' + str(price))
 print(f"\nThe total cost: R",  round(price_total, 2)) #To show 2 decimal places because when adding floating point values sometimes eventhough theres only 2 decimals it shows many
+
