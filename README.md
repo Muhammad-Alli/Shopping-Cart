@@ -5,7 +5,7 @@ This is a simple interactive Python program that simulates a basic shopping cart
 ## Features
 
 - Add any number of items and prices.
-- Automatically calculates the total cost along with the items and their prices.
+- Automatically calculates the total cost which is listed with all items and their prices.
 - Validates inputs to avoid incorrect pricing:
   - Items cannot be blank or just whitespace.
   - Prices must be positive numbers.
